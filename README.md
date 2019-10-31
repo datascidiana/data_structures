@@ -9,12 +9,12 @@ In this repository are my implementations of the following data structures:
 
 ## Linked List
 A doubly linked list is a sequential data structure of unordered linked elements known as nodes. It is represented by the first sentinel node, called head, which keep track of start and end of the list. Each node consists of value (data) and references to next and previous nodes.
-Markup:*Avantages: dynamic size, constant time insertion/deletion at front/end;
-Markup:*Drawbacks: random access not allowed (sequencial access), extra memory space for references.
+Markup : * Avantages: dynamic size, constant time insertion/deletion at front/end;
+Markup : * Drawbacks: random access not allowed (sequencial access), extra memory space for references.
 
 Time complexity:
-Markup:*access: O(n)
-Markup:*search: O(n)
+Markup : * access: O(n)
+Markup : * search: O(n)
 Markup:*insertion: O(1)
 Markup:*deletion: O(1)
 
