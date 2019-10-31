@@ -63,7 +63,6 @@ It has 2 arrays: indices - stores indices of the spot in the entries array for t
 Binary Search Tree is a node-based binary tree data structure, where the left subtree has values lesser than the parent node's key and the right subtree - larger. AVL Tree is a similar data structure, the difference is that it is self-balancing, which means that the difference between the heights of the left and right subtrees cannot be more than one.
 
 Time complexity:
-* access: O(log(n))
 * search: O(log(n))
 * insertion: O(log(n))
 * deletion: O(log(n))
@@ -77,8 +76,6 @@ The AVL Tree containes nodes with a value and references to the right and left s
 A heap is a tree-based data structure in which all the nodes of the tree are in a specific order. For example, in a max heap, parent's value is always larger than its children. 
 
 Time complexity:
-* access: O(log(n))
-* search: O(log(n))
 * insertion: O(log(n))
 * deletion: O(log(n))
 * min/max: O(1)
