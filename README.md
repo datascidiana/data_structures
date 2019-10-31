@@ -43,6 +43,9 @@ Time complexity:
 * insertion: O(1)
 * deletion: O(1)
 
+Implementation:
+Stack consists of nodes, reference to the next node, and a top node. To push a node, we add a node before the top node, which makes the new one - top node. To pop a node, we return the value of the top node and promote next node as top node.
+
 ## Hash Table
 Hash Table is a data structure which stores data in an associative manner. In a hash table, data is stored in an array format, where each data value has its own unique index value, obtained through hashing, which is is a technique to convert a range of key values into a range of indexes of an array. Access of data becomes very fast if we know the index of the desired data. Thus, it becomes a data structure in which insertion and search operations are very fast irrespective of the size of the data. However, worst case scenario - hash collisions for all items, makes search, insertion and deletion operations too slow, O(n).
 * Avantages: constant time search, insertion and deletion;
