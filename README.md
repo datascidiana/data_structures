@@ -9,25 +9,25 @@ In this repository are my implementations of the following data structures:
 
 ## Linked List
 A doubly linked list is a sequential data structure of unordered linked elements known as nodes. It is represented by the first sentinel node, called head, which keep track of start and end of the list. Each node consists of value (data) and references to next and previous nodes.
-Markup : * Avantages: dynamic size, constant time insertion/deletion at front/end;
-Markup : * Drawbacks: random access not allowed (sequencial access), extra memory space for references.
+* Avantages: dynamic size, constant time insertion/deletion at front/end;
+* Drawbacks: random access not allowed (sequencial access), extra memory space for references.
 
 Time complexity:
-Markup : * access: O(n)
-Markup : * search: O(n)
-Markup:*insertion: O(1)
-Markup:*deletion: O(1)
+* access: O(n)
+* search: O(n)
+* insertion: O(1)
+* deletion: O(1)
 
 ## Circular Queue
 Circular Queue is a linear data structure in which the operations are performed based on FIFO(First In First Out) principle and the last position is connected back to the first position to make a circle. Circular queue performs the following opperations: enqueue - adds an item at the end(tail), dequeue - removes the first item(head).
-Markup:*Avantages: manage data in a particular way (FIFO), constant time insertion and deletion;
-Markup:*Drawbacks: no random access.
+* Avantages: manage data in a particular way (FIFO), constant time insertion and deletion;
+* Drawbacks: no random access.
 
 Time complexity:
-Markup:*access: O(n)
-Markup:*search: O(n)
-Markup:*insertion: O(1)
-Markup:*deletion: O(1)
+* access: O(n)
+* search: O(n)
+* insertion: O(1)
+* deletion: O(1)
 
 Implementation:
 The queue is represented by an array, tail, head, and count. The head and tail keep track of their position in array, and count keeps track of the number of elements in the queue. To add a new value to the queue, we enqueue, which means promoting tail's position to the next position available in the array/queue and storing the value. To delete a value, we dequeue, which means promoting head's position by one and deleting the previous value for the head. To resize the array for the queue, we are inserting new cells at the head's position.
@@ -38,9 +38,9 @@ Markup:*Avantages: manage data in a particular way (LIFO/FILO), constant time in
 Markup:*Drawbacks: no random access.
 
 Time complexity:
-Markup:*access: O(n)
-Markup:*search: O(n)
-Markup:*insertion: O(1)
+* access: O(n)
+*search: O(n)
+*insertion: O(1)
 deletion: O(1)
 
 ## Hash Table
